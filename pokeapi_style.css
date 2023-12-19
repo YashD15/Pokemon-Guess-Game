@@ -1,0 +1,39 @@
+/* Main body */
+body{
+  background: rgb(59,150,227);
+  background: linear-gradient(90deg, rgba(59,150,227,1) 10%, rgba(59,184,227,1) 49%, rgba(59,150,227,1) 92%);
+}
+
+/* Head logo img size */
+.logo {
+  width: 10%;
+  height: 10%;
+  margin: 0px 20px 0px 20px;
+}
+
+/* Pokemon image display */
+img {
+  width: 30%;
+  height: 30%;
+  align-items: center;
+  border-radius: 5px;
+  border: solid;
+  border-color:black;
+  background-color: #d2d2d2;
+}
+
+/* Playing Container */
+.whitebg {
+  margin: auto;
+  width: 50%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Heading */
+.top {  
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
