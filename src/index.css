@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --animate-shimmer: shimmer 1.5s linear infinite;
+
+  @keyframes shimmer {
+    100% {
+      transform: translateX(100%);
+    }
+  }
+}
+
+
+.points {
+  font-weight: 400;
+  color: gray
+}
